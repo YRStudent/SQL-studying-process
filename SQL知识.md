@@ -90,7 +90,7 @@ SELECT * FROM TABLEA LIMIT 3 OFFSET 1
 #### DENSE_RANK() 对于分数相同的排序号码也是一致的，但不累计数量
 #### ROW_NUM() 不管分数相同与否，都依次按照排序号码排列下来
 具体见图所示：
-![排序函数](images/1e5f6d319cf74303c9263d57d740fcb0fd6e61a685386347ddc53bf7fc20d035.png) 
+![排序函数](images/1e5f6d319cf74303c9263d57d740fcb0fd6e61a685386347ddc53bf7fc20d035.png =600x600) 
 
 ### **位移函数**
 #### LEAD(column_name,offset,default 0) OVER ()
