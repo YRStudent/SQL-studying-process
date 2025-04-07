@@ -2,7 +2,7 @@
 # 一、SQL结构
 ## 1. <mark>**顺序**<mark>
 **FROM>WHERE>GROUP BY>HAVING>SELECT>ORDER BY>LIMIT**  
-![执行顺序](./images/SQL执行顺序.png =600x600)
+<img src="./images/SQL执行顺序.png" width=30%>
 
 往往由于WHERE是最先开始的 所以一般后面出现的定义别称、聚合函数等 不应该放在这里面 否则出现找不到该定义的情况  
 
@@ -89,8 +89,8 @@ SELECT * FROM TABLEA LIMIT 3 OFFSET 1
 #### RANKING() 对于分数相同的排序号码会一致 但是下一个排序号码则会累计相同分数的数量
 #### DENSE_RANK() 对于分数相同的排序号码也是一致的，但不累计数量
 #### ROW_NUM() 不管分数相同与否，都依次按照排序号码排列下来
-具体见图所示：
-![排序函数](images/1e5f6d319cf74303c9263d57d740fcb0fd6e61a685386347ddc53bf7fc20d035.png =600x600) 
+具体见图所示：  
+<img src="images/1e5f6d319cf74303c9263d57d740fcb0fd6e61a685386347ddc53bf7fc20d035.png" width=30%>
 
 ### **位移函数**
 #### LEAD(column_name,offset,default 0) OVER ()
