@@ -2,7 +2,7 @@
 # 一、SQL结构
 ## 1. <mark>**顺序**<mark>
 **FROM>WHERE>GROUP BY>HAVING>SELECT>ORDER BY>LIMIT**
-![执行顺序](images/SQL执行顺序.png =600x600)
+![执行顺序](./images/SQL执行顺序.png =600x600)
 
 往往由于WHERE是最先开始的 所以一般后面出现的定义别称、聚合函数等 不应该放在这里面 否则出现找不到该定义的情况  
 
